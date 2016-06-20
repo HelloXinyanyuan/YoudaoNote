@@ -1,0 +1,244 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbar" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="设置"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin" >
+
+                <RelativeLayout
+                    android:id="@+id/img_layout"
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" >
+
+                    <ImageView
+                        android:id="@+id/putao_open_app_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/setting_default_head_image_login" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:duplicateParentState="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/setting_account_unvip_mask" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/img_layout"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="阿斗" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="abc@163.com" />
+                </LinearLayout>
+
+                <ImageView style="@style/setting_item_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/setting_item_layout"
+                android:layout_marginTop="16dp" >
+
+                <TextView
+                    style="@style/setting_item_text"
+                    android:layout_centerVertical="true"
+                    android:text="隐私与安全" />
+
+                <View
+                    style="@style/setting_item_divider"
+                    android:layout_alignParentBottom="true" />
+
+                <ImageView style="@style/setting_item_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/setting_item_layout" >
+
+                <TextView
+                    style="@style/setting_item_text"
+                    android:layout_centerVertical="true"
+                    android:text="云笔记设置" />
+
+                <View
+                    style="@style/setting_item_divider"
+                    android:layout_alignParentBottom="true" />
+
+                <ImageView style="@style/setting_item_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/setting_item_layout" >
+
+                <TextView
+                    style="@style/setting_item_text"
+                    android:layout_centerVertical="true"
+                    android:text="云协作设置" />
+
+                <View
+                    style="@style/setting_item_divider"
+                    android:layout_alignParentBottom="true" />
+
+                <ImageView style="@style/setting_item_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/setting_item_layout"
+                android:layout_marginTop="16dp" >
+
+                <TextView
+                    style="@style/setting_item_text"
+                    android:layout_centerVertical="true"
+                    android:text="关于有道云笔记" />
+
+                <View
+                    style="@style/setting_item_divider"
+                    android:layout_alignParentBottom="true" />
+
+                <ImageView style="@style/setting_item_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/setting_item_layout" >
+
+                <TextView
+                    style="@style/setting_item_text"
+                    android:layout_centerVertical="true"
+                    android:text="云协作帮助中心" />
+
+                <View
+                    style="@style/setting_item_divider"
+                    android:layout_alignParentBottom="true" />
+
+                <ImageView style="@style/setting_item_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/setting_item_layout" >
+
+                <TextView
+                    style="@style/setting_item_text"
+                    android:layout_centerVertical="true"
+                    android:text="云协作企业版" />
+
+                <View
+                    style="@style/setting_item_divider"
+                    android:layout_alignParentBottom="true" />
+
+                <ImageView style="@style/setting_item_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/setting_item_layout" >
+
+                <TextView
+                    style="@style/setting_item_text"
+                    android:layout_centerVertical="true"
+                    android:text="笔记日常使用情况小调研" />
+
+                <View
+                    style="@style/setting_item_divider"
+                    android:layout_alignParentBottom="true" />
+
+                <ImageView style="@style/setting_item_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/setting_item_layout" >
+
+                <TextView
+                    style="@style/setting_item_text"
+                    android:layout_centerVertical="true"
+                    android:text="消息中心" />
+
+                <View
+                    style="@style/setting_item_divider"
+                    android:layout_alignParentBottom="true" />
+
+                <ImageView style="@style/setting_item_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/setting_item_layout" >
+
+                <TextView
+                    style="@style/setting_item_text"
+                    android:layout_centerVertical="true"
+                    android:text="意见反馈" />
+
+                <View
+                    style="@style/setting_item_divider"
+                    android:layout_alignParentBottom="true" />
+
+                <ImageView style="@style/setting_item_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/setting_item_layout" >
+
+                <TextView
+                    style="@style/setting_item_text"
+                    android:layout_centerVertical="true"
+                    android:text="用户满意度调查" />
+
+                <View
+                    style="@style/setting_item_divider"
+                    android:layout_alignParentBottom="true" />
+
+                <ImageView style="@style/setting_item_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin" >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/red_button"
+                    android:text="退出登录"
+                    android:textColor="@android:color/white" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

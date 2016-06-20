@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/list_more_menu_1_width"
+    android:layout_height="@dimen/list_more_menu_1_height"
+    android:layout_gravity="right"
+    android:background="@drawable/popupwindow"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/edit"
+        style="@style/list_more_item"
+        android:drawableLeft="@drawable/popup_edit"
+        android:text="编辑" />
+
+    <ImageView style="@style/list_more_item_divider" />
+
+    <TextView
+        android:id="@+id/only_show_title"
+        style="@style/list_more_item"
+        android:drawableLeft="@drawable/popup_simple"
+        android:text="只显示标题" />
+
+    <ImageView style="@style/list_more_item_divider" />
+
+    <TextView
+        android:id="@+id/my_collect"
+        style="@style/list_more_item"
+        android:drawableLeft="@drawable/popup_favorite"
+        android:text="我的收藏" />
+
+    <ImageView style="@style/list_more_item_divider" />
+
+    <TextView
+        android:id="@+id/my_remark"
+        style="@style/list_more_item"
+        android:drawableLeft="@drawable/popup_tag"
+        android:text="我的标签" />
+
+</LinearLayout>

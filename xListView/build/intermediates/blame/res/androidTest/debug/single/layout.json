@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AT20\\ASProject\\YoudaoNote\\xListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\list_item.xml",
+        "source": "D:\\AT20\\ASProject\\YoudaoNote\\xListView\\build\\intermediates\\bundles\\debug\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "D:\\AT20\\ASProject\\YoudaoNote\\xListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xlistview_footer.xml",
+        "source": "D:\\AT20\\ASProject\\YoudaoNote\\xListView\\build\\intermediates\\bundles\\debug\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "D:\\AT20\\ASProject\\YoudaoNote\\xListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xlistview_header.xml",
+        "source": "D:\\AT20\\ASProject\\YoudaoNote\\xListView\\build\\intermediates\\bundles\\debug\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "D:\\AT20\\ASProject\\YoudaoNote\\xListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\main.xml",
+        "source": "D:\\AT20\\ASProject\\YoudaoNote\\xListView\\build\\intermediates\\bundles\\debug\\res\\layout\\main.xml"
+    }
+]

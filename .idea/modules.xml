@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/YoudaoNote.iml" filepath="$PROJECT_DIR$/YoudaoNote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xListView/xListView.iml" filepath="$PROJECT_DIR$/xListView/xListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/youdaoNote/youdaoNote.iml" filepath="$PROJECT_DIR$/youdaoNote/youdaoNote.iml" />
+    </modules>
+  </component>
+</project>

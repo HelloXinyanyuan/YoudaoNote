@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.youdaonote.MainActivity" >
+
+    <com.example.youdaonote.widget.NoSlidingViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </com.example.youdaonote.widget.NoSlidingViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tab_note"
+            style="@style/HomeTabTxtStyle"
+            android:drawableTop="@drawable/docker_tab_doc_selector"
+            android:text="云笔记" />
+
+        <TextView
+            android:id="@+id/tab_teamwork"
+            style="@style/HomeTabTxtStyle"
+            android:drawableTop="@drawable/docker_tab_corp_selector"
+            android:text="云协作" />
+
+        <TextView
+            android:id="@+id/tab_setting"
+            style="@style/HomeTabTxtStyle"
+            android:drawableTop="@drawable/docker_tab_setting_selector"
+            android:text="设置" />
+    </LinearLayout>
+
+</LinearLayout>
